@@ -21,7 +21,7 @@ import ProductCard from '../../components/ProductCard.vue';
     useHead({
         title: 'Kode Shop | Merch',
         meta: [
-            { nmae: 'description', content: 'Nuxt 3 Merch'}
+            { name: 'description', content: 'Nuxt 3 Merch'}
         ]
     })
 </script>

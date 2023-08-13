@@ -10,6 +10,7 @@
 
 <script setup>
     const {id} = useRoute().params
+    console.log("routing", useRoute().params);
     const uri = 'https://fakestoreapi.com/products/' + id
     
     // fetch the product
